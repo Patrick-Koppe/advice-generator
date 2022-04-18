@@ -1,0 +1,13 @@
+@import "color";
+
+.box {
+    background: $darkGrayishBlue;
+    border-radius: 1.5rem;
+    left: 50%;
+    min-width: 300px;
+    max-width: 500px;
+    padding: 3rem;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

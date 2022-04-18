@@ -1,9 +1,15 @@
 @import "color";
+@import "font";
 
 body {
-
+    background: $darkBlue;
+    color: $lightCyan;
 }
 
-.App {
+h1 {
+    color: $neonGreen;
+}
 
+.text-center {
+    text-align: center;
 }
